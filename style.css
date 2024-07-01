@@ -108,10 +108,11 @@ html {
 /* Start Header */
 
 header {
-  border-bottom: solid 1px #aaa;
+  border-bottom: solid 1px var(--color-gray);
   position: fixed;
   width: 100%;
   z-index: 10;
+  transition-duration: 0.3s;
 }
 header .container {
   display: flex;
